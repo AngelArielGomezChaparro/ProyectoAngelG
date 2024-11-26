@@ -1,0 +1,16 @@
+[
+    {  
+        "informe": "Informe Diario",
+        "fechaGeneracion": "2023-07-01",
+        "totalGastos": 1000,
+        "categorias": 
+        [
+            {
+                "comida": 200,
+                "transporte": 200,
+                "entretenimiento": 200,
+                "otros": 200
+            }
+        ]
+    }
+]

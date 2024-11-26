@@ -1,0 +1,21 @@
+[
+    {
+        "fecha": "2023-07-01",
+        "monto": 100,
+        "categoria": "comida",
+        "descripcion": "almuerzo"
+    },
+    {
+        "fecha": "2023-07-02",
+        "monto": 200,
+        "categoria": "transporte",
+        "descripcion": "trabajo"
+    },
+    {
+        "fecha": "2023-07-03",
+        "monto": 300,
+        "categoria": "entretenimiento",
+        "descripcion": "Diablo 4"
+    }
+
+]
