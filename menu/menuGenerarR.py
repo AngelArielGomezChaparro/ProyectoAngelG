@@ -14,5 +14,8 @@ def designFour():
         4. Regresar al menú principal
         =============================================
         """)
-    Option1 = int(input("        Por favor, elige una opción (1-4): "))
-    return Option1
+    reporteDiario = int(input("        Por favor, elige una opcion (1-4): "))
+   
+   
+    #Option1 = int(input("        Por favor, elige una opción (1-4): "))
+    #return Option1

@@ -38,6 +38,6 @@ def actualizarGastos():
     guardarGastos(archivoGastos, gastos)  
     print(" Archivo actualizado correctamente.")
 
-# Ejecutar la función
+
 actualizarGastos()
 

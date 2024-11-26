@@ -16,6 +16,23 @@
         "monto": 300,
         "categoria": "entretenimiento",
         "descripcion": "Diablo 4"
+    },
+    {
+        "cantidad": 100.0,
+        "categoria": "entretenimiento",
+        "descripcion": "gta v",
+        "fecha": "2020-12-23"
+    },
+    {
+        "cantidad": 100.0,
+        "categoria": "entretenimiento",
+        "descripcion": "Sin descripci\u00f3n",
+        "fecha": "2024-11-26"
+    },
+    {
+        "cantidad": 100.0,
+        "categoria": "entretenimiento",
+        "descripcion": "GTA 5",
+        "fecha": "2012-06-23"
     }
-
 ]

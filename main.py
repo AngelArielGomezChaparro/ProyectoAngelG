@@ -27,3 +27,4 @@ while True:
             print("Opción no válida. Por favor, selecciona una opción correcta.")
     except ValueError:
         print("Por favor, ingrese un número.")
+
