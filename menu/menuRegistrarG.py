@@ -1,36 +1,32 @@
-#menuRegistrarG.py
-#Menu opcion 1
-
-import logic.registrarNuevoGasto
-import logic.actualizarGastos    
-import logic.leerGastos
+from logic.gastos import registrar_gasto
 
 def designOne():
-    print("""
-        =============================================
-                    Registrar Nuevo Gasto
-        =============================================
-        """)
+    print("\n=============================================")
+    print("            Registrar Nuevo Gasto")
+    print("=============================================")
+    try:
+        monto = float(input("Ingrese el monto del gasto: "))
+        categoria = input("Ingrese la categoría (ej. comida, transporte, entretenimiento, otros): ")
+        descripcion = input("Ingrese una descripción (opcional): ")
+        registrar_gasto(monto, categoria, descripcion)
+        print("\nGasto registrado con éxito.\n")
+        
+        
+        print("Seleccione una opción:")
+        print("1. Volver al menú principal")
+        print("2. Salir")
+        opcion = input("Ingrese su opción: ")
+        
+        if opcion == '1':
+            return  
+        elif opcion == '2':
+            from menu.menuSalir import designFive
+            if designFive() == 0:
+                print("Saliendo del programa...")
+                exit()  
+        else:
+            print("Opción no válida. Volviendo al menú principal.")
+            return  
 
-    cantidad = input("\tPor favor, ingrese la cantidad del gasto: ")
-    categoria = input("\tPor favor, ingrese la categoría del gasto: ")
-    descripcion = input("\tPor favor, ingrese la descripción del gasto: ")
-    fecha = input("\tPor favor, ingrese la fecha del gasto (YYYY-MM-DD): ")
-
-    logic.registrarNuevoGasto.agregarGasto(cantidad, categoria, descripcion, fecha)
-
-    logic.actualizarGastos.actualizarGastos()
-
-    logic.leerGastos.leerGastos()
-
-    print("""
-        =============================================
-                    Nuevo Gasto Registrado
-        =============================================
-        """)
-
-    input("\tPresione Enter para continuar...")
-
-
-    return 0
-    
+    except ValueError:
+        print("Monto inválido. Por favor, ingrese un número.")
