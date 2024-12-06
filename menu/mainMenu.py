@@ -1,27 +1,17 @@
-#mainMenu.py
-#Menu principal
-import os
-
 def designMainMenu():
-    print("""
-    =============================================
-             Simulador de Gasto Diario
-    =============================================
-              Seleccione una opción:
-    Seleccione una opción:
-
-        1. Registrar nuevo gasto
-        2. Listar gastos
-        3. Calcular total de gastos
-        4. Generar reporte de gastos
-        5. Salir
-    =============================================
-        """)
-        
-        #try:
-   
-    opcion1 = int(input("Por favor, elige una opción (1-5): "))
-    return opcion1
-   
-        #except ValueError:
-            #print("Por favor, ingrese un número válido.")
+    print("\n=============================================")
+    print("         Simulador de Gasto Diario")
+    print("=============================================")
+    print("Seleccione una opción:")
+    print("1. Registrar nuevo gasto")
+    print("2. Listar gastos")
+    print("3. Calcular total de gastos")
+    print("4. Generar reporte de gastos")
+    print("5. Salir")
+    print("=============================================")
+    try:
+        opcion = int(input("Ingrese su opción: "))
+        return opcion
+    except ValueError:
+        print("Por favor, ingrese un número válido.")
+        return 0  
