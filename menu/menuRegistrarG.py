@@ -1,5 +1,4 @@
 from logic.gastos import registrar_gasto
-
 def designOne():
     print("\n=============================================")
     print("            Registrar Nuevo Gasto")
@@ -9,8 +8,6 @@ def designOne():
         categoria = input("Ingrese la categoría (ej. comida, transporte, entretenimiento, otros): ")
         descripcion = input("Ingrese una descripción (opcional): ")
         registrar_gasto(monto, categoria, descripcion)
-        print("\nGasto registrado con éxito.\n")
-        
         
         print("Seleccione una opción:")
         print("1. Volver al menú principal")
@@ -22,7 +19,7 @@ def designOne():
         elif opcion == '2':
             from menu.menuSalir import designFive
             if designFive() == 0:
-                print("Saliendo del programa...")
+                
                 exit()  
         else:
             print("Opción no válida. Volviendo al menú principal.")

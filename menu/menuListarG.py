@@ -1,4 +1,5 @@
 from logic.archivo import cargar_datos
+from tabulate import tabulate
 
 def designTwo():
     print("\n=============================================")
@@ -9,9 +10,10 @@ def designTwo():
     if not gastos:
         print("No hay gastos registrados.")
         return
+
     
-    for gasto in gastos:
-        print(f"{gasto['fecha']} - {gasto['categoria']} - ${gasto['monto']} - {gasto['descripcion']}")
+    tabla = [[gasto['fecha'], gasto['categoria'], f"${gasto['monto']:.2f}", gasto['descripcion']] for gasto in gastos]
+    print(tabulate(tabla, headers=["Fecha", "Categoría", "Monto", "Descripción"], tablefmt="grid"))
     
     
     print("\n=============================================")

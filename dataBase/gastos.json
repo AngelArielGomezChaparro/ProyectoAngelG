@@ -16,5 +16,29 @@
         "monto": 200.0,
         "categoria": "comida",
         "descripcion": "hamburguesas familia"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 200.0,
+        "categoria": "comida",
+        "descripcion": "pollito"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 100.0,
+        "categoria": "otro",
+        "descripcion": "san andresito"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 200.0,
+        "categoria": "entretenimiento",
+        "descripcion": "prime video"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 100.0,
+        "categoria": "transporte",
+        "descripcion": "taxi"
     }
 ]
