@@ -40,5 +40,17 @@
         "monto": 100.0,
         "categoria": "transporte",
         "descripcion": "taxi"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 100.0,
+        "categoria": "comida",
+        "descripcion": "hamburguesas"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 100.0,
+        "categoria": "entretenimiento",
+        "descripcion": "diablo IV"
     }
 ]
