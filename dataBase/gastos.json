@@ -1,4 +1,124 @@
 [
+        {
+        "fecha": "2024-12-01",
+        "monto": 50.0,
+        "categoria": "comida",
+        "descripcion": "Cena en restaurante"
+    },
+    {
+        "fecha": "2024-12-01",
+        "monto": 30.0,
+        "categoria": "transporte",
+        "descripcion": "Taxi"
+    },
+    {
+        "fecha": "2024-12-02",
+        "monto": 100.0,
+        "categoria": "entretenimiento",
+        "descripcion": "Concierto"
+    },
+    {
+        "fecha": "2024-12-02",
+        "monto": 20.0,
+        "categoria": "educación",
+        "descripcion": "Cuaderno"
+    },
+    {
+        "fecha": "2024-12-03",
+        "monto": 200.0,
+        "categoria": "tecnología",
+        "descripcion": "Teclado mecánico"
+    },
+    {
+        "fecha": "2024-12-03",
+        "monto": 15.0,
+        "categoria": "comida",
+        "descripcion": "Café y snack"
+    },
+    {
+        "fecha": "2024-12-04",
+        "monto": 40.0,
+        "categoria": "transporte",
+        "descripcion": "Gasolina"
+    },
+    {
+        "fecha": "2024-12-04",
+        "monto": 75.0,
+        "categoria": "ropa",
+        "descripcion": "Camisa nueva"
+    },
+    {
+        "fecha": "2024-12-05",
+        "monto": 150.0,
+        "categoria": "hogar",
+        "descripcion": "Lámpara decorativa"
+    },
+    {
+        "fecha": "2024-12-05",
+        "monto": 60.0,
+        "categoria": "comida",
+        "descripcion": "Supermercado"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 100.0,
+        "categoria": "entretenimiento",
+        "descripcion": "Videojuego: GTA V"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 30.0,
+        "categoria": "salud",
+        "descripcion": "Medicamentos"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 25.0,
+        "categoria": "comida",
+        "descripcion": "Pizza"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 85.0,
+        "categoria": "tecnología",
+        "descripcion": "Mouse gaming"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 20.0,
+        "categoria": "educación",
+        "descripcion": "Licencia de software"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 10.0,
+        "categoria": "comida",
+        "descripcion": "Helado"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 45.0,
+        "categoria": "transporte",
+        "descripcion": "Pasajes de autobús"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 70.0,
+        "categoria": "ropa",
+        "descripcion": "Zapatos deportivos"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 200.0,
+        "categoria": "hogar",
+        "descripcion": "Reparación de electrodomésticos"
+    },
+    {
+        "fecha": "2024-12-06",
+        "monto": 90.0,
+        "categoria": "entretenimiento",
+        "descripcion": "Cena con amigos"
+    },
     {
         "fecha": "2024-12-06",
         "monto": 100.0,
